@@ -1,0 +1,42 @@
+/* cancel.css */
+
+.cancel-body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .payment-status-container-cancel {
+    text-align: center;
+  }
+  
+  .failure-message-cancel {
+    color: #dc3545; /* Red color for failure message */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .failure-message-cancel span {
+    font-size: 36px;
+    margin-right: 10px;
+  }
+  
+  .go-back-link-cancel {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .go-back-link-cancel:hover {
+    background-color: #0056b3;
+  }
+  

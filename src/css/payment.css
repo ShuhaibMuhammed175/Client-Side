@@ -1,0 +1,47 @@
+/* payment.css */
+
+.payment-container {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .payment-status-container {
+    text-align: center;
+  }
+  
+  .payment-success-message {
+    color: #28a745;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .payment-success-message span {
+    font-size: 36px;
+    margin-right: 10px;
+  }
+  
+  .payment-go-home-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .payment-go-home-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .payment-waiting-message {
+    color: #007bff;
+    font-size: 20px;
+  }
+  

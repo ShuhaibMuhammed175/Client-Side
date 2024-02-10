@@ -1,0 +1,43 @@
+/* AboutUs.css */
+
+.about-us-container {
+    padding: 50px;
+    text-align: center;
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-us-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-heading {
+    color: #007bff; /* Primary heading color */
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .team-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-description {
+    color: #555; /* Text color */
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-description:last-child {
+    margin-bottom: 0;
+  }
+  

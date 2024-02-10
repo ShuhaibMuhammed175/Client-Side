@@ -1,0 +1,102 @@
+/* Styles for the main container */
+.main-container {
+  display: flex;
+}
+
+/* Styles for the left section */
+.left-section {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.my-header-image {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  
+}
+
+/* Styles for the right section */
+.right-section {
+  flex: 2;
+  padding: 20px;
+}
+
+/* Styles for the container of all restaurants */
+.restaurants-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+  grid-gap: 30px; /* Spacing between restaurants */
+  margin-top: 20px; /* Adjust as needed */
+}
+
+/* Styles for each restaurant */
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Ensure the image doesn't overflow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+  margin-bottom: 30px; /* Spacing between restaurants vertically */
+}
+
+/* On hover effect */
+.restaurant:hover {
+  transform: translateY(-5px); /* Move the card slightly upwards on hover */
+}
+
+/* Styles for the image */
+.image {
+  width: 100%;
+  height: auto; /* Allow the image to adjust its height based on its aspect ratio */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  
+}
+
+/* Styles for restaurant details */
+.details {
+  display: flex;
+  width: 100%;
+}
+
+/* Styles for left details (name and location) */
+.left-details {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Styles for the restaurant name */
+.name {
+  font-weight: bold;
+}
+
+/* Styles for the location */
+.location {
+  color: #666;
+  margin-top: 4px;
+}
+
+/* Styles for right details (rating) */
+.right-details {
+  padding: 10px;
+}
+
+.rating {
+  font-size: 20px;
+  font-family: nunito;
+  background-color: #8cbb0f;
+  padding: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 3px;
+}
+
+/* Styles for the restaurant heading */
+.res-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Adjust the color as needed */
+  margin-top: 15px;
+}
